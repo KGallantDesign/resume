@@ -1,0 +1,184 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+.some-page-wrapper {
+  background-color: white;
+  margin: 0%;
+  padding: 0%;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+  }
+  .column1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+  }
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .orange-column {
+    height: 95em;
+    margin-top: 5%;
+    margin-left: -10%;
+  }
+  .blue-column {
+    height: 60em;
+    margin-top: 5%;
+    margin-left: -28%;
+  }
+  .double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+  }
+  @media screen and (min-width: 800px) {
+    .column {
+      flex: 1
+    }
+    .double-column {
+      flex: 2
+    }
+    .column1 {
+      flex: 1
+    }
+  }
+  /*------------------------------------- FlexBox ^ ---------------------*/
+  
+
+
+
+
+  .element {
+    width: 100%;
+    height: 300px;
+    animation: pulse 10s;
+  }@keyframes pulse {
+    0% {
+      background-color: rgb(1, 69, 136);
+    }
+    70% {
+      background-color: white;
+    }
+    30% {
+      background-color: goldenrod;
+    }
+  }
+
+/*-------------------- animation background ^ ---------*/
+  
+   .nav{
+    width:100%;
+    margin-right:auto;
+    padding-top:1.5%;
+    margin-left: 5%;
+  }
+  nav a{
+    color: rgb(1, 69, 136);
+    text-decoration: none;
+    padding-left:1%;
+    padding-right:1%;
+    font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  a:hover{
+  color:goldenrod;
+  }
+  a:active{
+    color: white;
+    }
+  nav{
+    background-color:black;
+    height:9%;
+    font-size:1.4em;
+    text-align:left;
+    width:100%;
+    position: fixed;
+    margin: 0%;
+    padding: 0%;
+  }
+  /*-------------------------------------- NAV ^ -----------------*/
+
+  .padding{
+    width:10%;
+    max-width:100%;
+    margin-left:5%;
+    margin-top: 7%;
+  }
+  .name{
+    width: 55%;
+    margin-top: 8%;
+    margin-left: 48%;
+    margin-bottom: 20%;
+  }
+  .info{
+    margin-top: 5%;
+  }
+  .body{
+    width: 75%;
+   padding-left: 20%;
+  }
+  /*------------------------------------- NAME & LOGO ^ ----------------*/
+  .skills{
+    width: 100%;
+    padding-left: 20%;
+    bottom: 0%;
+  }
+  .space{
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    list-style-type: none;
+  }
+  .spaced{
+    padding-top: 5%;
+    padding-bottom: 2.5%;
+  }
+  .li-bullets{
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+  }
+  
+  h1{
+    min-width: 50%;
+    width: 100%;
+    color:rgb(151, 150, 150);
+    font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 4em;
+  }
+  h2{
+    width: 50%;
+    max-width: 50%;
+    min-width: 50%;
+    color: rgb(151, 150, 150);
+    font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2em
+  }
+  h3{
+    width: 100%;
+    color:  rgb(1, 69, 136);
+    font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.5em;
+  }
+  h4{
+    width: 100%;
+    font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1em;
+  }
+  .li-bullets{
+    list-style-type: square;
+  }
+  li{
+    padding-bottom: 2.5%;
+  }
